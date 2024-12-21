@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachet Smeta - Оставить заявку</title>
+    <link rel="stylesheet" href="contacts.css">
+</head>
+<body>
+    <header>
+        <h1>Rachet Smeta</h1>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="projects.html">Проекты</a></li>
+                <li><a href="smetas.html">Сметы</a></li>
+                <li><a href="tasks.html">Задачи</a></li>
+                <li><a href="contacts.html">Заявки</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-form">
+            <h2>Оставьте заявку</h2>
+            <p>Заполните форму, и мы свяжемся с вами в ближайшее время.</p>
+
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+                </div>
+
+                <div>
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" name="email" placeholder="Введите ваш email" required>
+                </div>
+
+                <div>
+                    <label for="phone">Ваш телефон:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Введите ваш телефон" required>
+                </div>
+
+                <div>
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" name="message" placeholder="Введите ваше сообщение" required></textarea>
+                </div>
+
+                <button type="submit" class="cta-button">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>2024 Rachet Smeta</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
